@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="icon"
+			type="image/pnfont-family: 'Manrope', sans-serif;g"
+			sizes="32x32"
+			href="../assets/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | Maker pre-launch landing page</title>
+		<link rel="stylesheet" href="style.css" />
+		<script defer src="./app.js"></script>
+	</head>
+	<body>
+		<!-- header -->
+		<header class="header">
+			<img src="./assets/logo.svg" alt="maker" />
+		</header>
+
+		<main>
+			<!-- hero section -->
+			<section class="hero">
+				<div class="hero__bg--desktop--left"></div>
+				<div class="hero__bg--desktop--right"></div>
+				<div class="hero__bg--mobile"></div>
+				<div class="hero__content text-center">
+					<h1 class="font-md font-extrabold">
+						Get paid for the work you
+						<span class="text-primary">love</span> to do.
+					</h1>
+
+					<p class="hero__description font-base text-grey">
+						The 9-5 grind is so last century. We believe in living
+						life on your own terms. Whether you're looking to escape
+						the rat race or set up a side hustle, we've got you
+						covered.
+					</p>
+
+					<img
+						src="./assets/icon-scroll.svg"
+						alt="mouse scroll"
+						class="hero__mouse"
+					/>
+				</div>
+			</section>
+
+			<section class="features">
+				<ul class="features__container">
+					<li class="features__item">
+						<div class="features__item-img">
+							<img
+								src="./assets/illustration-passions.svg"
+								alt="passions"
+							/>
+						</div>
+						<div>
+							<h5
+								class="features__item-caption font-sm font-extrabold"
+							>
+								Indulge your passions
+							</h5>
+							<p class="font-base text-grey">
+								Your passions shouldn't be just for the weekend.
+								Earn a living doing what you love.
+							</p>
+						</div>
+					</li>
+					<li class="features__item">
+						<div class="features__item-img">
+							<img
+								src="./assets/illustration-financial-freedom.svg"
+								alt="financial-freedom"
+							/>
+						</div>
+						<div>
+							<h5
+								class="features__item-caption font-sm font-extrabold"
+							>
+								Gain financial freedom
+							</h5>
+							<p class="font-base text-grey">
+								Start making money work for you. There’s nothing
+								quite like earning while you sleep.
+							</p>
+						</div>
+					</li>
+					<li class="features__item">
+						<div class="features__item-img">
+							<img
+								src="./assets/illustration-lifestyle.svg"
+								alt="lifestyle"
+							/>
+						</div>
+						<div>
+							<h5
+								class="features__item-caption font-sm font-extrabold"
+							>
+								Choose your lifestyle
+							</h5>
+							<p class="font-base text-grey">
+								Own your daily schedule. Fancy a lie-in? Go for
+								it! Take charge of your week.
+							</p>
+						</div>
+					</li>
+					<li class="features__item">
+						<div class="features__item-img">
+							<img
+								src="./assets/illustration-work-anywhere.svg"
+								alt="lifestyle"
+							/>
+						</div>
+						<div>
+							<h5
+								class="features__item-caption font-sm font-extrabold"
+							>
+								Work from anywhere
+							</h5>
+							<p class="font-base text-grey">
+								Selling online means not being pinned down. Want
+								to work AND travel? Go for it!
+							</p>
+						</div>
+					</li>
+				</ul>
+			</section>
+
+			<section class="pricing">
+				<h2 class="pricing__title text-center font-extrabold">
+					Our pricing plans
+				</h2>
+				<p class="pricing__description text-grey text-center font-base">
+					We only make money when our creators make money. Our plans
+					are always affordable, and it's completely free to get
+					started.
+				</p>
+				<div class="pricing__card-container">
+					<div class="pricing__card pricing__card--secondary">
+						<div class="pricing__card-header">
+							<img src="./assets/icon-free.svg" alt="free" />
+							<h4 class="font-sm font-extrabold">Dip your toe</h4>
+							<p class="font-base">
+								Just getting started? No problem at all! Our
+								free plan will take you a long way.
+							</p>
+						</div>
+						<div class="pricing__card-body">
+							<h3 class="font-lg font-extrabold">Free</h3>
+							<ul class="font-base">
+								<li>Unlimited products</li>
+								<li>Basic analytics</li>
+								<li>Limited marketplace exposure</li>
+								<li>10% fee per transaction</li>
+							</ul>
+						</div>
+					</div>
+					<div class="pricing__card pricing__card--primary">
+						<div class="pricing__card-header">
+							<img src="./assets/icon-paid.svg" alt="paid" />
+							<h4 class="font-sm font-extrabold">
+								Dive right in
+							</h4>
+							<p class="text-bg font-base">
+								Ready for the big time? Our paid plan will help
+								you take your business to the next level.
+							</p>
+						</div>
+						<div class="pricing__card-body">
+							<h3 class="font-lg font-extrabold">
+								$25.00
+								<span class="font-base text-grey">/ month</span>
+							</h3>
+							<ul class="font-base">
+								<li>Custom domain</li>
+								<li>Advanced analytics and reports</li>
+								<li>High marketplace visibility</li>
+								<li>5% fee per transaction</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<h2 class="footer__title text-center font-extrabold">
+				Get notified when we launch
+			</h2>
+			<form class="footer__form">
+				<div class="footer__form-control">
+					<input
+						type="text"
+						class="text-grey font-base font-extrabold"
+						placeholder="Email address"
+					/>
+					<div class="form__error-msg text-center"></div>
+				</div>
+				<div class="footer__form-control">
+					<button type="submit" class="font-extrabold">
+						Get notified
+					</button>
+				</div>
+			</form>
+		</footer>
+	</body>
+</html>
